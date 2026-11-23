@@ -1,0 +1,48 @@
+{
+  "winner": "random_forest",
+  "features": [
+    "temperature",
+    "wind_speed",
+    "rain",
+    "relative_humidity"
+  ],
+  "classes": {
+    "0": "No Fire",
+    "1": "Fire"
+  },
+  "random_state": 42,
+  "sklearn_version": "1.8.0",
+  "workbook_sha256": "f15237d57bc227d45ceaf883a8b16b774541184dac47b4ddfd720a5d72dcbfd0",
+  "calibrated": false,
+  "selection": "August Fire F1 first, then recall and precision for ties; default classifier decision.",
+  "calibration_rule": "Accept sigmoid holdout recipe if August Brier improves and Fire F1 and recall do not fall.",
+  "parameters": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 10,
+    "max_features": 1.0,
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 8,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 200,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "train_rows": 793,
+  "validation_rows": 212,
+  "probability_meaning": "Estimated probability of a recorded same-day class given the four inputs.",
+  "refit": "Refit on eligible train + August rows",
+  "classes_": [
+    0,
+    1
+  ]
+}

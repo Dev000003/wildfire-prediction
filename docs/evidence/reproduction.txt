@@ -1,0 +1,5 @@
+eda/tables: 10 regenerated CSVs matched the packaged references.
+audit: 7 regenerated CSVs matched the packaged references.
+training: 5 regenerated CSVs matched the packaged references.
+evaluation/results: 10 regenerated CSVs matched the packaged references.
+All 1,215 labels and probability pairs matched the reproduced model (probability tolerance 1e-12).

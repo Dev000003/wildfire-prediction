@@ -1,0 +1,21 @@
+,estimated,observed,n,model,period
+"(-0.001, 0.2]",0.10497569111671484,0.0,22,logistic_regression,August · candidate comparison
+"(0.2, 0.4]",0.3198826729106275,0.1875,16,logistic_regression,August · candidate comparison
+"(0.4, 0.6]",0.5270330781186006,0.23529411764705882,34,logistic_regression,August · candidate comparison
+"(0.6, 0.8]",0.71214578982965,0.6896551724137931,29,logistic_regression,August · candidate comparison
+"(0.8, 1.0]",0.9396046235697965,0.9099099099099099,111,logistic_regression,August · candidate comparison
+"(-0.001, 0.2]",0.10395083406496927,0.06666666666666667,30,decision_tree,August · candidate comparison
+"(0.2, 0.4]",0.26548672566371684,0.0,10,decision_tree,August · candidate comparison
+"(0.4, 0.6]",0.44999999999999996,0.3888888888888889,18,decision_tree,August · candidate comparison
+"(0.6, 0.8]",0.7134259259259259,0.3888888888888889,18,decision_tree,August · candidate comparison
+"(0.8, 1.0]",0.8898305084745762,0.8529411764705882,136,decision_tree,August · candidate comparison
+"(-0.001, 0.2]",0.09930137364706584,0.0,17,random_forest,August · candidate comparison
+"(0.2, 0.4]",0.3194306454249403,0.13333333333333333,30,random_forest,August · candidate comparison
+"(0.4, 0.6]",0.4965430135929072,0.25,20,random_forest,August · candidate comparison
+"(0.6, 0.8]",0.7172808376738284,0.6,20,random_forest,August · candidate comparison
+"(0.8, 1.0]",0.9254857300209439,0.888,125,random_forest,August · candidate comparison
+"(-0.001, 0.2]",0.0682783469725393,0.0,52,random_forest,September · final pipeline
+"(0.2, 0.4]",0.2994073960936844,0.05405405405405406,37,random_forest,September · final pipeline
+"(0.4, 0.6]",0.5015502531284863,0.07692307692307693,13,random_forest,September · final pipeline
+"(0.6, 0.8]",0.7085916801559391,0.20689655172413793,29,random_forest,September · final pipeline
+"(0.8, 1.0]",0.9170143451025963,0.8648648648648649,74,random_forest,September · final pipeline
